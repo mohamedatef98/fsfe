@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "server-start": "pm2 start app.js",
+    "server-restart": "pm2 restart app.js"
   },
   "author": "",
   "license": "ISC",
